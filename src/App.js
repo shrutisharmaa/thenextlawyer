@@ -14,7 +14,7 @@ class App extends Component {
           <React.Fragment>
             <Route exact path="/" component={Home} />
             <Route exact path="/services" component={Services} />
-            <Route path="/contactus" component={Contact} />
+            <Route path="/contact-us" component={Contact} />
             <Route path="/why-us" component={Why_Us} />
           </React.Fragment>
         </BrowserRouter>
